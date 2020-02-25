@@ -1,0 +1,1616 @@
+{
+  "codebook": [
+    {
+        "name":"v1",
+        "desc": "Able to take active role in political group",
+        "type": "numeric (double)",
+        "label": "actrolg, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v2",
+        "desc": "Feeling of safety of walking alone in local area after dark",
+        "type": "numeric (double)",
+        "label": "aesfdrk"
+      },
+    {
+        "name":"v3",
+        "desc": "Age of respondent, calculated",
+        "type": "numeric (double)",
+        "label": "agea, but 90 nonmissing values are not labeled"
+      },
+    {
+        "name":"v4",
+        "desc": "First ancestry, European Standard Classification of Cultural and Ethnic Groups",
+        "type": "numeric (double)",
+        "label": "anctry1"
+      },
+    {
+        "name":"v5",
+        "desc": "Second ancestry, European Standard Classification of Cultural and Ethnic Groups",
+        "type": "numeric (double)",
+        "label": "anctry2"
+      },
+    {
+        "name":"v6",
+        "desc": "Improve knowledge/skills: course/lecture/conference, last 12 months",
+        "type": "numeric (double)",
+        "label": "atncrse"
+      },
+    {
+        "name":"v7",
+        "desc": "Worn or displayed campaign badge/sticker last 12 months",
+        "type": "numeric (double)",
+        "label": "badge"
+      },
+    {
+        "name":"v8",
+        "desc": "Boycotted certain products last 12 months",
+        "type": "numeric (double)",
+        "label": "bctprd"
+      },
+    {
+        "name":"v9",
+        "desc": "Belong to minority ethnic group in country",
+        "type": "numeric (double)",
+        "label": "blgetmg"
+      },
+    {
+        "name":"v10",
+        "desc": "Born in country",
+        "type": "numeric (double)",
+        "label": "brncntr"
+      },
+    {
+        "name":"v11",
+        "desc": "Ever had children living in household",
+        "type": "numeric (double)",
+        "label": "chldhhe"
+      },
+    {
+        "name":"v12",
+        "desc": "Children living at home or not",
+        "type": "numeric (double)",
+        "label": "chldhm"
+      },
+    {
+        "name":"v13",
+        "desc": "Could not get going, how often past week",
+        "type": "numeric (double)",
+        "label": "cldgng"
+      },
+    {
+        "name":"v14",
+        "desc": "Feel closer to a particular party than all other parties",
+        "type": "numeric (double)",
+        "label": "clsprty"
+      },
+    {
+        "name":"v15",
+        "desc": "Doing last 7 days: community or military service",
+        "type": "numeric (double)",
+        "label": "cmsrv"
+      },
+    {
+        "name":"v16",
+        "desc": "Partner doing last 7 days: community or military service",
+        "type": "numeric (double)",
+        "label": "cmsrvp"
+      },
+    {
+        "name":"v17",
+        "desc": "Country of birth",
+        "type": "string (str2)"
+      },
+    {
+        "name":"v18",
+        "desc": "Contacted politician or government official last 12 months",
+        "type": "numeric (double)",
+        "label": "contplt"
+      },
+    {
+        "name":"v19",
+        "desc": "Confident in own ability to participate in politics",
+        "type": "numeric (double)",
+        "label": "cptppol, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v20",
+        "desc": "Region",
+        "type": "string (str5)"
+      },
+    {
+        "name":"v21",
+        "desc": "Respondent or household member victim of burglary/assault last 5 years",
+        "type": "numeric (double)",
+        "label": "crmvct"
+      },
+    {
+        "name":"v22",
+        "desc": "Control paid work last 7 days",
+        "type": "numeric (double)",
+        "label": "crpdwk"
+      },
+    {
+        "name":"v23",
+        "desc": "Partner, control paid work last 7 days",
+        "type": "numeric (double)",
+        "label": "crpdwkp"
+      },
+    {
+        "name":"v24",
+        "desc": "Citizen of country",
+        "type": "numeric (double)",
+        "label": "ctzcntr"
+      },
+    {
+        "name":"v25",
+        "desc": "Citizenship",
+        "type": "string (str2)"
+      },
+    {
+        "name":"v26",
+        "desc": "Doing last 7 days: don't know",
+        "type": "numeric (double)",
+        "label": "dngdk"
+      },
+    {
+        "name":"v27",
+        "desc": "Partner doing last 7 days: don't know",
+        "type": "numeric (double)",
+        "label": "dngdkp"
+      },
+    {
+        "name":"v28",
+        "desc": "Doing last 7 days: no answer",
+        "type": "numeric (double)",
+        "label": "dngna"
+      },
+    {
+        "name":"v29",
+        "desc": "Partner doing last 7 days: no answer",
+        "type": "numeric (double)",
+        "label": "dngnap"
+      },
+    {
+        "name":"v30",
+        "desc": "Partner doing last 7 days: not applicable",
+        "type": "numeric (double)",
+        "label": "dngnapp"
+      },
+    {
+        "name":"v31",
+        "desc": "Doing last 7 days: other",
+        "type": "numeric (double)",
+        "label": "dngoth"
+      },
+    {
+        "name":"v32",
+        "desc": "Partner doing last 7 days: other",
+        "type": "numeric (double)",
+        "label": "dngothp"
+      },
+    {
+        "name":"v33",
+        "desc": "Doing last 7 days: refusal",
+        "type": "numeric (double)",
+        "label": "dngref"
+      },
+    {
+        "name":"v34",
+        "desc": "Partner doing last 7 days: refusal",
+        "type": "numeric (double)",
+        "label": "dngrefp"
+      },
+    {
+        "name":"v35",
+        "desc": "Domicile, respondent's description",
+        "type": "numeric (double)",
+        "label": "domicil"
+      },
+    {
+        "name":"v36",
+        "desc": "Doing last 7 days: permanently sick or disabled",
+        "type": "numeric (double)",
+        "label": "dsbld"
+      },
+    {
+        "name":"v37",
+        "desc": "Partner doing last 7 days: permanently sick or disabled",
+        "type": "numeric (double)",
+        "label": "dsbldp"
+      },
+    {
+        "name":"v38",
+        "desc": "Discrimination of respondent's group: age",
+        "type": "numeric (double)",
+        "label": "dscrage"
+      },
+    {
+        "name":"v39",
+        "desc": "Discrimination of respondent's group: don't know",
+        "type": "numeric (double)",
+        "label": "dscrdk"
+      },
+    {
+        "name":"v40",
+        "desc": "Discrimination of respondent's group: disability",
+        "type": "numeric (double)",
+        "label": "dscrdsb"
+      },
+    {
+        "name":"v41",
+        "desc": "Discrimination of respondent's group: ethnic group",
+        "type": "numeric (double)",
+        "label": "dscretn"
+      },
+    {
+        "name":"v42",
+        "desc": "Discrimination of respondent's group: gender",
+        "type": "numeric (double)",
+        "label": "dscrgnd"
+      },
+    {
+        "name":"v43",
+        "desc": "Member of a group discriminated against in this country",
+        "type": "numeric (double)",
+        "label": "dscrgrp"
+      },
+    {
+        "name":"v44",
+        "desc": "Discrimination of respondent's group: language",
+        "type": "numeric (double)",
+        "label": "dscrlng"
+      },
+    {
+        "name":"v45",
+        "desc": "Discrimination of respondent's group: no answer",
+        "type": "numeric (double)",
+        "label": "dscrna"
+      },
+    {
+        "name":"v46",
+        "desc": "Discrimination of respondent's group: not applicable",
+        "type": "numeric (double)",
+        "label": "dscrnap"
+      },
+    {
+        "name":"v47",
+        "desc": "Discrimination of respondent's group: nationality",
+        "type": "numeric (double)",
+        "label": "dscrntn"
+      },
+    {
+        "name":"v48",
+        "desc": "Discrimination of respondent's group: other grounds",
+        "type": "numeric (double)",
+        "label": "dscroth"
+      },
+    {
+        "name":"v49",
+        "desc": "Discrimination of respondent's group: colour or race",
+        "type": "numeric (double)",
+        "label": "dscrrce"
+      },
+    {
+        "name":"v50",
+        "desc": "Discrimination of respondent's group: refusal",
+        "type": "numeric (double)",
+        "label": "dscrref"
+      },
+    {
+        "name":"v51",
+        "desc": "Discrimination of respondent's group: religion",
+        "type": "numeric (double)",
+        "label": "dscrrlg"
+      },
+    {
+        "name":"v52",
+        "desc": "Discrimination of respondent's group: sexuality",
+        "type": "numeric (double)",
+        "label": "dscrsex"
+      },
+    {
+        "name":"v53",
+        "desc": "Ever been divorced/had civil union dissolved",
+        "type": "numeric (double)",
+        "label": "dvrcdeva"
+      },
+    {
+        "name":"v54",
+        "desc": "Doing last 7 days: education",
+        "type": "numeric (double)",
+        "label": "edctn"
+      },
+    {
+        "name":"v55",
+        "desc": "Partner doing last 7 days: education",
+        "type": "numeric (double)",
+        "label": "edctnp"
+      },
+    {
+        "name":"v56",
+        "desc": "Highest level of education",
+        "type": "numeric (double)",
+        "label": "edulvla"
+      },
+    {
+        "name":"v57",
+        "desc": "Highest level of education",
+        "type": "numeric (double)",
+        "label": "edulvlb"
+      },
+    {
+        "name":"v58",
+        "desc": "Father's highest level of education",
+        "type": "numeric (double)",
+        "label": "edulvlfa"
+      },
+    {
+        "name":"v59",
+        "desc": "Father's highest level of education",
+        "type": "numeric (double)",
+        "label": "edulvlfb"
+      },
+    {
+        "name":"v60",
+        "desc": "Mother's highest level of education",
+        "type": "numeric (double)",
+        "label": "edulvlma"
+      },
+    {
+        "name":"v61",
+        "desc": "Mother's highest level of education",
+        "type": "numeric (double)",
+        "label": "edulvlmb"
+      },
+    {
+        "name":"v62",
+        "desc": "Partner's highest level of education",
+        "type": "numeric (double)",
+        "label": "edulvlpa"
+      },
+    {
+        "name":"v63",
+        "desc": "Partner's highest level of education",
+        "type": "numeric (double)",
+        "label": "edulvlpb"
+      },
+    {
+        "name":"v64",
+        "desc": "Years of full-time education completed",
+        "type": "numeric (double)",
+        "label": "eduyrs, but 44 nonmissing values are not labeled"
+      },
+    {
+        "name":"v65",
+        "desc": "Highest level of education, ES - ISCED",
+        "type": "numeric (double)",
+        "label": "eisced"
+      },
+    {
+        "name":"v66",
+        "desc": "Father's highest level of education, ES - ISCED",
+        "type": "numeric (double)",
+        "label": "eiscedf"
+      },
+    {
+        "name":"v67",
+        "desc": "Mother's highest level of education, ES - ISCED",
+        "type": "numeric (double)",
+        "label": "eiscedm"
+      },
+    {
+        "name":"v68",
+        "desc": "Partner's highest level of education, ES - ISCED",
+        "type": "numeric (double)",
+        "label": "eiscedp"
+      },
+    {
+        "name":"v69",
+        "desc": "Number of employees respondent has/had",
+        "type": "numeric (double)",
+        "label": "emplno, but 58 nonmissing values are not labeled"
+      },
+    {
+        "name":"v70",
+        "desc": "Employment relation",
+        "type": "numeric (double)",
+        "label": "emplrel"
+      },
+    {
+        "name":"v71",
+        "desc": "Partner's employment relation",
+        "type": "numeric (double)",
+        "label": "emprelp"
+      },
+    {
+        "name":"v72",
+        "desc": "Father's employment status when respondent 14",
+        "type": "numeric (double)",
+        "label": "emprf14"
+      },
+    {
+        "name":"v73",
+        "desc": "Mother's employment status when respondent 14",
+        "type": "numeric (double)",
+        "label": "emprm14"
+      },
+    {
+        "name":"v74",
+        "desc": "Enjoyed life, how often past week",
+        "type": "numeric (double)",
+        "label": "enjlf"
+      },
+    {
+        "name":"v75",
+        "desc": "Establishment size",
+        "type": "numeric (double)",
+        "label": "estsz"
+      },
+    {
+        "name":"v76",
+        "desc": "European Union: European unification go further or gone too far",
+        "type": "numeric (double)",
+        "label": "euftf, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v77",
+        "desc": "Father born in country",
+        "type": "numeric (double)",
+        "label": "facntr"
+      },
+    {
+        "name":"v78",
+        "desc": "Country of birth, father",
+        "type": "string (str2)"
+      },
+    {
+        "name":"v79",
+        "desc": "Felt depressed, how often past week",
+        "type": "numeric (double)",
+        "label": "fltdpr"
+      },
+    {
+        "name":"v80",
+        "desc": "Felt everything did as effort, how often past week",
+        "type": "numeric (double)",
+        "label": "flteeff"
+      },
+    {
+        "name":"v81",
+        "desc": "Felt lonely, how often past week",
+        "type": "numeric (double)",
+        "label": "fltlnl"
+      },
+    {
+        "name":"v82",
+        "desc": "Felt sad, how often past week",
+        "type": "numeric (double)",
+        "label": "fltsd"
+      },
+    {
+        "name":"v83",
+        "desc": "Gays and lesbians free to live life as they wish",
+        "type": "numeric (double)",
+        "label": "freehms"
+      },
+    {
+        "name":"v84",
+        "desc": "Government should reduce differences in income levels",
+        "type": "numeric (double)",
+        "label": "gincdif"
+      },
+    {
+        "name":"v85",
+        "desc": "Gender",
+        "type": "numeric (double)",
+        "label": "gndr"
+      },
+    {
+        "name":"v86",
+        "desc": "Gender of tenth person in household",
+        "type": "numeric (double)",
+        "label": "gndr10"
+      },
+    {
+        "name":"v87",
+        "desc": "Gender of eleventh person in household",
+        "type": "numeric (double)",
+        "label": "gndr11"
+      },
+    {
+        "name":"v88",
+        "desc": "Gender of twelfth person in household",
+        "type": "numeric (double)",
+        "label": "gndr12"
+      },
+    {
+        "name":"v89",
+        "desc": "Gender of thirteenth person in household",
+        "type": "numeric (double)",
+        "label": "gndr13"
+      },
+    {
+        "name":"v90",
+        "desc": "Gender of second person in household",
+        "type": "numeric (double)",
+        "label": "gndr2"
+      },
+    {
+        "name":"v91",
+        "desc": "Gender of third person in household",
+        "type": "numeric (double)",
+        "label": "gndr3"
+      },
+    {
+        "name":"v92",
+        "desc": "Gender of fourth person in household",
+        "type": "numeric (double)",
+        "label": "gndr4"
+      },
+    {
+        "name":"v93",
+        "desc": "Gender of fifth person in household",
+        "type": "numeric (double)",
+        "label": "gndr5"
+      },
+    {
+        "name":"v94",
+        "desc": "Gender of sixth person in household",
+        "type": "numeric (double)",
+        "label": "gndr6"
+      },
+    {
+        "name":"v95",
+        "desc": "Gender of seventh person in household",
+        "type": "numeric (double)",
+        "label": "gndr7"
+      },
+    {
+        "name":"v96",
+        "desc": "Gender of eighth person in household",
+        "type": "numeric (double)",
+        "label": "gndr8"
+      },
+    {
+        "name":"v97",
+        "desc": "Gender of ninth person in household",
+        "type": "numeric (double)",
+        "label": "gndr9"
+      },
+    {
+        "name":"v98",
+        "desc": "How happy are you",
+        "type": "numeric (double)",
+        "label": "happy, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v99",
+        "desc": "Subjective general health",
+        "type": "numeric (double)",
+        "label": "health"
+      },
+    {
+        "name":"v100",
+        "desc": "Number of people living regularly as member of household",
+        "type": "numeric (double)",
+        "label": "hhmmb, but 14 nonmissing values are not labeled"
+      },
+    {
+        "name":"v101",
+        "desc": "Feeling about household's income nowadays",
+        "type": "numeric (double)",
+        "label": "hincfel"
+      },
+    {
+        "name":"v102",
+        "desc": "Main source of household income",
+        "type": "numeric (double)",
+        "label": "hincsrc"
+      },
+    {
+        "name":"v103",
+        "desc": "Main source of household income",
+        "type": "numeric (double)",
+        "label": "hincsrca"
+      },
+    {
+        "name":"v104",
+        "desc": "Household's total net income, all sources",
+        "type": "numeric (double)",
+        "label": "hinctnta"
+      },
+    {
+        "name":"v105",
+        "desc": "Hampered in daily activities by illness/disability/infirmity/mental problem",
+        "type": "numeric (double)",
+        "label": "hlthhmp"
+      },
+    {
+        "name":"v106",
+        "desc": "Doing last 7 days: housework, looking after children, others",
+        "type": "numeric (double)",
+        "label": "hswrk"
+      },
+    {
+        "name":"v107",
+        "desc": "Partner doing last 7 days: housework, looking after children, others",
+        "type": "numeric (double)",
+        "label": "hswrkp"
+      },
+    {
+        "name":"v108",
+        "desc": "Have a set 'basic' or contracted number of hours",
+        "type": "numeric (double)",
+        "label": "icwhct"
+      },
+    {
+        "name":"v109",
+        "desc": "Immigration bad or good for country's economy",
+        "type": "numeric (double)",
+        "label": "imbgeco, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v110",
+        "desc": "Allow many/few immigrants of different race/ethnic group from majority",
+        "type": "numeric (double)",
+        "label": "imdfetn"
+      },
+    {
+        "name":"v111",
+        "desc": "Allow many/few immigrants from poorer countries outside Europe",
+        "type": "numeric (double)",
+        "label": "impcntr"
+      },
+    {
+        "name":"v112",
+        "desc": "Important to try new and different things in life",
+        "type": "numeric (double)",
+        "label": "impdiff"
+      },
+    {
+        "name":"v113",
+        "desc": "Important to care for nature and environment",
+        "type": "numeric (double)",
+        "label": "impenv"
+      },
+    {
+        "name":"v114",
+        "desc": "Important to make own decisions and be free",
+        "type": "numeric (double)",
+        "label": "impfree"
+      },
+    {
+        "name":"v115",
+        "desc": "Important to seek fun and things that give pleasure",
+        "type": "numeric (double)",
+        "label": "impfun"
+      },
+    {
+        "name":"v116",
+        "desc": "Important to be rich, have money and expensive things",
+        "type": "numeric (double)",
+        "label": "imprich"
+      },
+    {
+        "name":"v117",
+        "desc": "Important to live in secure and safe surroundings",
+        "type": "numeric (double)",
+        "label": "impsafe"
+      },
+    {
+        "name":"v118",
+        "desc": "Important to follow traditions and customs",
+        "type": "numeric (double)",
+        "label": "imptrad"
+      },
+    {
+        "name":"v119",
+        "desc": "Allow many/few immigrants of same race/ethnic group as majority",
+        "type": "numeric (double)",
+        "label": "imsmetn"
+      },
+    {
+        "name":"v120",
+        "desc": "Country's cultural life undermined or enriched by immigrants",
+        "type": "numeric (double)",
+        "label": "imueclt, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v121",
+        "desc": "Immigrants make country worse or better place to live",
+        "type": "numeric (double)",
+        "label": "imwbcnt, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v122",
+        "desc": "How many people with whom you can discuss intimate and personal matters",
+        "type": "numeric (double)",
+        "label": "inprdsc, but 3 nonmissing values are not labeled"
+      },
+    {
+        "name":"v123",
+        "desc": "Place of interview: East, West Germany",
+        "type": "numeric (double)",
+        "label": "intewde"
+      },
+    {
+        "name":"v124",
+        "desc": "End of interview, day of month",
+        "type": "numeric (double)",
+        "label": "inwdde, but 31 nonmissing values are not labeled"
+      },
+    {
+        "name":"v125",
+        "desc": "Start of interview, day of month",
+        "type": "numeric (double)",
+        "label": "inwdds, but 31 nonmissing values are not labeled"
+      },
+    {
+        "name":"v126",
+        "desc": "End of interview, hour",
+        "type": "numeric (double)",
+        "label": "inwehh, but 24 nonmissing values are not labeled"
+      },
+    {
+        "name":"v127",
+        "desc": "End of interview, minute",
+        "type": "numeric (double)",
+        "label": "inwemm, but 60 nonmissing values are not labeled"
+      },
+    {
+        "name":"v128",
+        "desc": "End of interview, month",
+        "type": "numeric (double)",
+        "label": "inwmme, but 12 nonmissing values are not labeled"
+      },
+    {
+        "name":"v129",
+        "desc": "Start of interview, month",
+        "type": "numeric (double)",
+        "label": "inwmms, but 12 nonmissing values are not labeled"
+      },
+    {
+        "name":"v130",
+        "desc": "Start of interview, hour",
+        "type": "numeric (double)",
+        "label": "inwshh, but 24 nonmissing values are not labeled"
+      },
+    {
+        "name":"v131",
+        "desc": "Start of interview, minute",
+        "type": "numeric (double)",
+        "label": "inwsmm, but 60 nonmissing values are not labeled"
+      },
+    {
+        "name":"v132",
+        "desc": "Interview length in minutes, main questionnaire",
+        "type": "numeric (double)"
+      },
+    {
+        "name":"v133",
+        "desc": "End of interview, year",
+        "type": "numeric (double)",
+        "label": "inwyye, but 2 nonmissing values are not labeled"
+      },
+    {
+        "name":"v134",
+        "desc": "Start of interview, year",
+        "type": "numeric (double)",
+        "label": "inwyys, but 2 nonmissing values are not labeled"
+      },
+    {
+        "name":"v135",
+        "desc": "Allowed to influence policy decisions about activities of organisation",
+        "type": "numeric (double)",
+        "label": "iorgact, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v136",
+        "desc": "Important to seek adventures and have an exciting life",
+        "type": "numeric (double)",
+        "label": "ipadvnt"
+      },
+    {
+        "name":"v137",
+        "desc": "Important to behave properly",
+        "type": "numeric (double)",
+        "label": "ipbhprp"
+      },
+    {
+        "name":"v138",
+        "desc": "Important to think new ideas and being creative",
+        "type": "numeric (double)",
+        "label": "ipcrtiv"
+      },
+    {
+        "name":"v139",
+        "desc": "Important that people are treated equally and have equal opportunities",
+        "type": "numeric (double)",
+        "label": "ipeqopt"
+      },
+    {
+        "name":"v140",
+        "desc": "Important to do what is told and follow rules",
+        "type": "numeric (double)",
+        "label": "ipfrule"
+      },
+    {
+        "name":"v141",
+        "desc": "Important to have a good time",
+        "type": "numeric (double)",
+        "label": "ipgdtim"
+      },
+    {
+        "name":"v142",
+        "desc": "Important to help people and care for others well-being",
+        "type": "numeric (double)",
+        "label": "iphlppl"
+      },
+    {
+        "name":"v143",
+        "desc": "Important to be loyal to friends and devote to people close",
+        "type": "numeric (double)",
+        "label": "iplylfr"
+      },
+    {
+        "name":"v144",
+        "desc": "Important to be humble and modest, not draw attention",
+        "type": "numeric (double)",
+        "label": "ipmodst"
+      },
+    {
+        "name":"v145",
+        "desc": "Important to get respect from others",
+        "type": "numeric (double)",
+        "label": "iprspot"
+      },
+    {
+        "name":"v146",
+        "desc": "Important to show abilities and be admired",
+        "type": "numeric (double)",
+        "label": "ipshabt"
+      },
+    {
+        "name":"v147",
+        "desc": "Important that government is strong and ensures safety",
+        "type": "numeric (double)",
+        "label": "ipstrgv"
+      },
+    {
+        "name":"v148",
+        "desc": "Important to be successful and that people recognize achievements",
+        "type": "numeric (double)",
+        "label": "ipsuces"
+      },
+    {
+        "name":"v149",
+        "desc": "Important to understand different people",
+        "type": "numeric (double)",
+        "label": "ipudrst"
+      },
+    {
+        "name":"v150",
+        "desc": "Occupation, ISCO08",
+        "type": "numeric (double)",
+        "label": "isco08"
+      },
+    {
+        "name":"v151",
+        "desc": "Occupation partner, ISCO08",
+        "type": "numeric (double)",
+        "label": "isco08p"
+      },
+    {
+        "name":"v152",
+        "desc": "Responsible for supervising other employees",
+        "type": "numeric (double)",
+        "label": "jbspv"
+      },
+    {
+        "name":"v153",
+        "desc": "What year you first came to live in country",
+        "type": "numeric (double)",
+        "label": "livecnta, but 88 nonmissing values are not labeled"
+      },
+    {
+        "name":"v154",
+        "desc": "Language most often spoken at home: first mentioned",
+        "type": "string (str3)"
+      },
+    {
+        "name":"v155",
+        "desc": "Language most often spoken at home: second mentioned",
+        "type": "string (str3)"
+      },
+    {
+        "name":"v156",
+        "desc": "Placement on left right scale",
+        "type": "numeric (double)",
+        "label": "lrscale, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v157",
+        "desc": "Ever lived with a partner, without being married",
+        "type": "numeric (double)",
+        "label": "lvgptnea"
+      },
+    {
+        "name":"v158",
+        "desc": "Main activity last 7 days",
+        "type": "numeric (double)",
+        "label": "mainact"
+      },
+    {
+        "name":"v159",
+        "desc": "Legal marital status, post coded",
+        "type": "numeric (double)",
+        "label": "maritalb"
+      },
+    {
+        "name":"v160",
+        "desc": "Legal marital status",
+        "type": "numeric (double)",
+        "label": "marsts"
+      },
+    {
+        "name":"v161",
+        "desc": "Country of birth, mother",
+        "type": "string (str2)"
+      },
+    {
+        "name":"v162",
+        "desc": "Member of trade union or similar organisation",
+        "type": "numeric (double)",
+        "label": "mbtru"
+      },
+    {
+        "name":"v163",
+        "desc": "Main activity, last 7 days. All respondents. Post coded",
+        "type": "numeric (double)",
+        "label": "mnactic"
+      },
+    {
+        "name":"v164",
+        "desc": "Partner's main activity last 7 days",
+        "type": "numeric (double)",
+        "label": "mnactp"
+      },
+    {
+        "name":"v165",
+        "desc": "Mother born in country",
+        "type": "numeric (double)",
+        "label": "mocntr"
+      },
+    {
+        "name":"v166",
+        "desc": "Administration of supplementary questionnaire",
+        "type": "numeric (double)",
+        "label": "mode"
+      },
+    {
+        "name":"v167",
+        "desc": "Industry, NACE rev.2",
+        "type": "numeric (double)",
+        "label": "nacer2"
+      },
+    {
+        "name":"v168",
+        "desc": "Number of people responsible for in job",
+        "type": "numeric (double)",
+        "label": "njbspv, but 155 nonmissing values are not labeled"
+      },
+    {
+        "name":"v169",
+        "desc": "Father's occupation when respondent 14",
+        "type": "numeric (double)",
+        "label": "occf14b"
+      },
+    {
+        "name":"v170",
+        "desc": "Mother's occupation when respondent 14",
+        "type": "numeric (double)",
+        "label": "occm14b"
+      },
+    {
+        "name":"v171",
+        "desc": "Lives with husband/wife/partner at household grid",
+        "type": "numeric (double)",
+        "label": "partner"
+      },
+    {
+        "name":"v172",
+        "desc": "Taken part in lawful public demonstration last 12 months",
+        "type": "numeric (double)",
+        "label": "pbldmn"
+      },
+    {
+        "name":"v173",
+        "desc": "Ever had a paid job",
+        "type": "numeric (double)",
+        "label": "pdjobev"
+      },
+    {
+        "name":"v174",
+        "desc": "Year last in paid job",
+        "type": "numeric (double)",
+        "label": "pdjobyr, but 77 nonmissing values are not labeled"
+      },
+    {
+        "name":"v175",
+        "desc": "Doing last 7 days: paid work",
+        "type": "numeric (double)",
+        "label": "pdwrk"
+      },
+    {
+        "name":"v176",
+        "desc": "Partner doing last 7 days: paid work",
+        "type": "numeric (double)",
+        "label": "pdwrkp"
+      },
+    {
+        "name":"v177",
+        "desc": "How interested in politics",
+        "type": "numeric (double)",
+        "label": "polintr"
+      },
+    {
+        "name":"v178",
+        "desc": "Most people try to take advantage of you, or try to be fair",
+        "type": "numeric (double)",
+        "label": "pplfair, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v179",
+        "desc": "Most of the time people helpful or mostly looking out for themselves",
+        "type": "numeric (double)",
+        "label": "pplhlp, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v180",
+        "desc": "Most people can be trusted or you can't be too careful",
+        "type": "numeric (double)",
+        "label": "ppltrst, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v181",
+        "desc": "How often pray apart from at religious services",
+        "type": "numeric (double)",
+        "label": "pray"
+      },
+    {
+        "name":"v182",
+        "desc": "How close to party",
+        "type": "numeric (double)",
+        "label": "prtdgcl"
+      },
+    {
+        "name":"v183",
+        "desc": "Political system allows people to have influence on politics",
+        "type": "numeric (double)",
+        "label": "psppipl, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v184",
+        "desc": "Political system allows people to have a say in what government does",
+        "type": "numeric (double)",
+        "label": "psppsgv, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v185",
+        "desc": "Regional unit",
+        "type": "numeric (double)",
+        "label": "regunit"
+      },
+    {
+        "name":"v186",
+        "desc": "How often attend religious services apart from special occasions",
+        "type": "numeric (double)",
+        "label": "rlgatnd"
+      },
+    {
+        "name":"v187",
+        "desc": "Belonging to particular religion or denomination",
+        "type": "numeric (double)",
+        "label": "rlgblg"
+      },
+    {
+        "name":"v188",
+        "desc": "Ever belonging to particular religion or denomination",
+        "type": "numeric (double)",
+        "label": "rlgblge"
+      },
+    {
+        "name":"v189",
+        "desc": "How religious are you",
+        "type": "numeric (double)",
+        "label": "rlgdgr, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v190",
+        "desc": "Religion or denomination belonging to at present",
+        "type": "numeric (double)",
+        "label": "rlgdnm"
+      },
+    {
+        "name":"v191",
+        "desc": "Religion or denomination belonging to in the past",
+        "type": "numeric (double)",
+        "label": "rlgdnme"
+      },
+    {
+        "name":"v192",
+        "desc": "Tenth person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rship10"
+      },
+    {
+        "name":"v193",
+        "desc": "Eleventh person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rship11"
+      },
+    {
+        "name":"v194",
+        "desc": "Twelfth person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rship12"
+      },
+    {
+        "name":"v195",
+        "desc": "Thirteenth person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rship13"
+      },
+    {
+        "name":"v196",
+        "desc": "Second person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rship2"
+      },
+    {
+        "name":"v197",
+        "desc": "Third person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rship3"
+      },
+    {
+        "name":"v198",
+        "desc": "Fourth person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rship4"
+      },
+    {
+        "name":"v199",
+        "desc": "Fifth person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rship5"
+      },
+    {
+        "name":"v200",
+        "desc": "Sixth person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rship6"
+      },
+    {
+        "name":"v201",
+        "desc": "Seventh person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rship7"
+      },
+    {
+        "name":"v202",
+        "desc": "Eighth person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rship8"
+      },
+    {
+        "name":"v203",
+        "desc": "Ninth person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rship9"
+      },
+    {
+        "name":"v204",
+        "desc": "Tenth person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rshipa10"
+      },
+    {
+        "name":"v205",
+        "desc": "Eleventh person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rshipa11"
+      },
+    {
+        "name":"v206",
+        "desc": "Twelfth person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rshipa12"
+      },
+    {
+        "name":"v207",
+        "desc": "Thirteenth person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rshipa13"
+      },
+    {
+        "name":"v208",
+        "desc": "Second person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rshipa2"
+      },
+    {
+        "name":"v209",
+        "desc": "Third person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rshipa3"
+      },
+    {
+        "name":"v210",
+        "desc": "Fourth person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rshipa4"
+      },
+    {
+        "name":"v211",
+        "desc": "Fifth person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rshipa5"
+      },
+    {
+        "name":"v212",
+        "desc": "Sixth person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rshipa6"
+      },
+    {
+        "name":"v213",
+        "desc": "Seventh person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rshipa7"
+      },
+    {
+        "name":"v214",
+        "desc": "Eighth person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rshipa8"
+      },
+    {
+        "name":"v215",
+        "desc": "Ninth person in household: relationship to respondent",
+        "type": "numeric (double)",
+        "label": "rshipa9"
+      },
+    {
+        "name":"v216",
+        "desc": "Relationship with husband/wife/partner currently living with",
+        "type": "numeric (double)",
+        "label": "rshpsts"
+      },
+    {
+        "name":"v217",
+        "desc": "Doing last 7 days: retired",
+        "type": "numeric (double)",
+        "label": "rtrd"
+      },
+    {
+        "name":"v218",
+        "desc": "Partner doing last 7 days: retired",
+        "type": "numeric (double)",
+        "label": "rtrdp"
+      },
+    {
+        "name":"v219",
+        "desc": "Take part in social activities compared to others of same age",
+        "type": "numeric (double)",
+        "label": "sclact"
+      },
+    {
+        "name":"v220",
+        "desc": "How often socially meet with friends, relatives or colleagues",
+        "type": "numeric (double)",
+        "label": "sclmeet"
+      },
+    {
+        "name":"v221",
+        "desc": "Signed petition last 12 months",
+        "type": "numeric (double)",
+        "label": "sgnptit"
+      },
+    {
+        "name":"v222",
+        "desc": "Sleep was restless, how often past week",
+        "type": "numeric (double)",
+        "label": "slprl"
+      },
+    {
+        "name":"v223",
+        "desc": "How satisfied with the way democracy works in country",
+        "type": "numeric (double)",
+        "label": "stfdem, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v224",
+        "desc": "How satisfied with present state of economy in country",
+        "type": "numeric (double)",
+        "label": "stfeco, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v225",
+        "desc": "State of education in country nowadays",
+        "type": "numeric (double)",
+        "label": "stfedu, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v226",
+        "desc": "How satisfied with the national government",
+        "type": "numeric (double)",
+        "label": "stfgov, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v227",
+        "desc": "State of health services in country nowadays",
+        "type": "numeric (double)",
+        "label": "stfhlth, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v228",
+        "desc": "Day of month, supplementary questionnaire",
+        "type": "numeric (double)",
+        "label": "supqdd, but 31 nonmissing values are not labeled"
+      },
+    {
+        "name":"v229",
+        "desc": "Month, supplementary questionnaire",
+        "type": "numeric (double)",
+        "label": "supqmm, but 12 nonmissing values are not labeled"
+      },
+    {
+        "name":"v230",
+        "desc": "Year, supplementary questionnaire",
+        "type": "numeric (double)",
+        "label": "supqyr, but 2 nonmissing values are not labeled"
+      },
+    {
+        "name":"v231",
+        "desc": "What type of organisation work/worked for",
+        "type": "numeric (double)",
+        "label": "tporgwk"
+      },
+    {
+        "name":"v232",
+        "desc": "Trust in the European Parliament",
+        "type": "numeric (double)",
+        "label": "trstep, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v233",
+        "desc": "Trust in the legal system",
+        "type": "numeric (double)",
+        "label": "trstlgl, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v234",
+        "desc": "Trust in the police",
+        "type": "numeric (double)",
+        "label": "trstplc, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v235",
+        "desc": "Trust in politicians",
+        "type": "numeric (double)",
+        "label": "trstplt, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v236",
+        "desc": "Trust in country's parliament",
+        "type": "numeric (double)",
+        "label": "trstprl, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v237",
+        "desc": "Trust in political parties",
+        "type": "numeric (double)",
+        "label": "trstprt, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v238",
+        "desc": "Trust in the United Nations",
+        "type": "numeric (double)",
+        "label": "trstun, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v239",
+        "desc": "TV watching, news/politics/current affairs on average weekday",
+        "type": "numeric (double)",
+        "label": "tvpol"
+      },
+    {
+        "name":"v240",
+        "desc": "TV watching, total time on average weekday",
+        "type": "numeric (double)",
+        "label": "tvtot"
+      },
+    {
+        "name":"v241",
+        "desc": "Any period of unemployment and work seeking lasted 12 months or more",
+        "type": "numeric (double)",
+        "label": "uemp12m"
+      },
+    {
+        "name":"v242",
+        "desc": "Ever unemployed and seeking work for a period more than three months",
+        "type": "numeric (double)",
+        "label": "uemp3m"
+      },
+    {
+        "name":"v243",
+        "desc": "Any period of unemployment and work seeking within last 5 years",
+        "type": "numeric (double)",
+        "label": "uemp5yr"
+      },
+    {
+        "name":"v244",
+        "desc": "Doing last 7 days: unemployed, actively looking for job",
+        "type": "numeric (double)",
+        "label": "uempla"
+      },
+    {
+        "name":"v245",
+        "desc": "Partner doing last 7 days: unemployed, actively looking for job",
+        "type": "numeric (double)",
+        "label": "uemplap"
+      },
+    {
+        "name":"v246",
+        "desc": "Doing last 7 days: unemployed, not actively looking for job",
+        "type": "numeric (double)",
+        "label": "uempli"
+      },
+    {
+        "name":"v247",
+        "desc": "Partner doing last 7 days: unemployed, not actively looking for job",
+        "type": "numeric (double)",
+        "label": "uemplip"
+      },
+    {
+        "name":"v248",
+        "desc": "Voted last national election",
+        "type": "numeric (double)",
+        "label": "vote"
+      },
+    {
+        "name":"v249",
+        "desc": "Allowed to decide how daily work is organised",
+        "type": "numeric (double)",
+        "label": "wkdcorga, but 9 nonmissing values are not labeled"
+      },
+    {
+        "name":"v250",
+        "desc": "Total contracted hours per week in main job overtime excluded",
+        "type": "numeric (double)",
+        "label": "wkhct, but 107 nonmissing values are not labeled"
+      },
+    {
+        "name":"v251",
+        "desc": "Total hours normally worked per week in main job overtime included",
+        "type": "numeric (double)",
+        "label": "wkhtot, but 112 nonmissing values are not labeled"
+      },
+    {
+        "name":"v252",
+        "desc": "Hours normally worked a week in main job overtime included, partner",
+        "type": "numeric (double)",
+        "label": "wkhtotp, but 91 nonmissing values are not labeled"
+      },
+    {
+        "name":"v253",
+        "desc": "Were happy, how often past week",
+        "type": "numeric (double)",
+        "label": "wrhpp"
+      },
+    {
+        "name":"v254",
+        "desc": "Paid work in another country, period more than 6 months last 10 years",
+        "type": "numeric (double)",
+        "label": "wrkac6m"
+      },
+    {
+        "name":"v255",
+        "desc": "Employment contract unlimited or limited duration",
+        "type": "numeric (double)",
+        "label": "wrkctra"
+      },
+    {
+        "name":"v256",
+        "desc": "Worked in another organisation or association last 12 months",
+        "type": "numeric (double)",
+        "label": "wrkorg"
+      },
+    {
+        "name":"v257",
+        "desc": "Worked in political party or action group last 12 months",
+        "type": "numeric (double)",
+        "label": "wrkprty"
+      },
+    {
+        "name":"v258",
+        "desc": "Year of birth",
+        "type": "numeric (double)",
+        "label": "yrbrn, but 90 nonmissing values are not labeled"
+      },
+    {
+        "name":"v259",
+        "desc": "Year of birth of tenth person in household",
+        "type": "numeric (double)",
+        "label": "yrbrn10, but 15 nonmissing values are not labeled"
+      },
+    {
+        "name":"v260",
+        "desc": "Year of birth of eleventh person in household",
+        "type": "numeric (double)",
+        "label": "yrbrn11, but 11 nonmissing values are not labeled"
+      },
+    {
+        "name":"v261",
+        "desc": "Year of birth of twelfth person in household",
+        "type": "numeric (double)",
+        "label": "yrbrn12, but 8 nonmissing values are not labeled"
+      },
+    {
+        "name":"v262",
+        "desc": "Year of birth of thirteenth person in household",
+        "type": "numeric (double)",
+        "label": "yrbrn13, but 1 nonmissing value is not labeled"
+      },
+    {
+        "name":"v263",
+        "desc": "Year of birth of second person in household",
+        "type": "numeric (double)",
+        "label": "yrbrn2, but 104 nonmissing values are not labeled"
+      },
+    {
+        "name":"v264",
+        "desc": "Year of birth of third person in household",
+        "type": "numeric (double)",
+        "label": "yrbrn3, but 99 nonmissing values are not labeled"
+      },
+    {
+        "name":"v265",
+        "desc": "Year of birth of fourth person in household",
+        "type": "numeric (double)",
+        "label": "yrbrn4, but 92 nonmissing values are not labeled"
+      },
+    {
+        "name":"v266",
+        "desc": "Year of birth of fifth person in household",
+        "type": "numeric (double)",
+        "label": "yrbrn5, but 79 nonmissing values are not labeled"
+      },
+    {
+        "name":"v267",
+        "desc": "Year of birth of sixth person in household",
+        "type": "numeric (double)",
+        "label": "yrbrn6, but 67 nonmissing values are not labeled"
+      },
+    {
+        "name":"v268",
+        "desc": "Year of birth of seventh person in household",
+        "type": "numeric (double)",
+        "label": "yrbrn7, but 42 nonmissing values are not labeled"
+      },
+    {
+        "name":"v269",
+        "desc": "Year of birth of eighth person in household",
+        "type": "numeric (double)",
+        "label": "yrbrn8, but 30 nonmissing values are not labeled"
+      },
+    {
+        "name":"v270",
+        "desc": "Year of birth of ninth person in household",
+        "type": "numeric (double)",
+        "label": "yrbrn9, but 25 nonmissing values are not labeled"
+      }
+  ]
+}
