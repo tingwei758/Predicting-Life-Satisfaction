@@ -1,6 +1,8 @@
 Predicting-Life-Satisfaction
 ==============================
 
+
+
 Link to original competition: https://www.kaggle.com/c/eurosat-w2020/overview/description
 
-Ranked #3
+Ranked #3 on the competition.
