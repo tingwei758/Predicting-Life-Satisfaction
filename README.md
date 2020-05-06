@@ -1,4 +1,4 @@
 Predicting-Life-Satisfaction
 ==============================
 
-A short description of the project.
+Link to original competition: https://www.kaggle.com/c/eurosat-w2020/overview/description
