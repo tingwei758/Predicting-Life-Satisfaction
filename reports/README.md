@@ -4,4 +4,4 @@
     </embed>
 </object>
 
-![Presentation](Presentation.pdf)
+[embed]Presentation.pdf[/embed]
