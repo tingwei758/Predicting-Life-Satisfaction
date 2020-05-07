@@ -3,3 +3,5 @@
         <p>This browser does not support PDFs.</p>
     </embed>
 </object>
+
+![hustlin_erd](erd.pdf)
