@@ -4,4 +4,4 @@
     </embed>
 </object>
 
-![hustlin_erd](Presentation.pdf)
+![Presentation](Presentation.pdf)
