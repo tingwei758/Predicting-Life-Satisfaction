@@ -5,4 +5,4 @@ Methodology detail see [reports/Presentation.pdf](./reports/Presentation.pdf)
 
 Implementation detail see [notebooks](./notebooks/)
 
-Original competition (Ranked #3): https://www.kaggle.com/c/eurosat-w2020/overview/description
+Original competition (ranked #3) and Data: https://www.kaggle.com/c/eurosat-w2020/overview/description
